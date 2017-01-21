@@ -101,6 +101,10 @@ templateUrl:'view/gridconfiger.html'
 templateUrl:'view/tablesorting.html'
 })
 
+.when('/emit',{
+templateUrl:'view/emit.html'
+})
+
 .otherwise({
 	redirectTo:'/delhi'
 })

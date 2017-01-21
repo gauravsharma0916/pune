@@ -107,5 +107,9 @@ console.log("filter");
 $location.path("/tablesorting");
  }
  
+  $scope.click23 = function(){
+console.log("emit");
+$location.path("/emit");
+ }
  
 });
