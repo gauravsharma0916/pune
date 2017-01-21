@@ -1,0 +1,99 @@
+<html ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pune project</title>
+  <link rel="stylesheet" type="text/css" href="/bower_components/angular-ui-grid/ui-grid.css">
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/controller/maincontroller.js"></script>
+	<script src="bower_components/angularjs-datepicker/src/js/angular-datepicker.js"></script> 
+	<!--ui grid files start here -->
+	<script src="bower_components/angular-ui-grid/ui-grid.min.js"></script>
+	<script src="lib/js/angular-touch.js"></script>
+	<script src="lib/js/angular-animate.js"></script>
+	
+	
+	<script type="text/javascript" src="js/controller/gridController.js"></script> 
+	<!--ui grid files ends here -->
+    <script type="text/javascript" src="js/controller/kanpurcontroller.js"></script>
+    <script type="text/javascript" src="js/service/myFactory.js"></script>
+    <script type="text/javascript" src="js/controller/punecontroller.js"></script>
+    <script type="text/javascript" src="js/controller/delhicontroller.js"></script>
+    <script type="text/javascript" src="js/controller/updateController.js"></script>
+    <script type="text/javascript" src="js/controller/demopagecontroller.js"></script>
+    <script type="text/javascript" src="js/controller/modalcontroller.js"></script>
+    <script type="text/javascript" src="js/controller/divgamecontroller.js"></script>
+    <script type="text/javascript" src="js/controller/targetController.js"></script>
+    <script type="text/javascript" src="js/controller/target1Controller.js"></script>
+    <script type="text/javascript" src="js/controller/hclcontroller.js"></script>
+    <script type="text/javascript" src="js/controller/datepickercontroller.js"></script>
+    <script type="text/javascript" src="js/controller/crudcontroller.js"></script>
+    <script type="text/javascript" src="js/controller/arrayController.js"></script>
+    <script type="text/javascript" src="js/controller/muneercontroller.js"></script>
+    <script type="text/javascript" src="js/controller/filtercontroller.js"></script>
+    <script type="text/javascript" src="js/controller/myCustomdirectiveController.js"></script>
+    <script type="text/javascript" src="js/controller/tablesortingcontroller.js"></script>
+    
+	<!--grid controller-->
+     
+    <script type="text/javascript" src="js/controller/griController.js"></script>
+    <script type="text/javascript" src="js/directive/customDirective.js"></script>
+    <script type="text/javascript" src="js/directive/customDirective1.js"></script>
+    <script type="text/javascript" src="js/service/Factory.js"></script>
+    <script type="text/javascript" src="js/service/tableSortingFactory.js"></script>
+	<!--fiter add here-->
+	 <!-- <script type="text/javascript" src="js/filter/filter.js"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--bower component how to add start-->
+	  <link href="bower_components/angularjs-datepicker/src/css/angular-datepicker.css" rel="stylesheet" type="text/css" >
+    
+     <script src="/bower_components/angular-ui-grid/ui-grid.js"></script>
+     <!--bower component how to add  end-->
+
+    <link rel="stylesheet" href="cdn/bootstrap.min.css">
+    <script type="text/javascript" src="cdn/jquery.min.js"></script>
+    <script src="lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="cdn/bootstrap.min.js"></script>
+</head>
+
+<body class="demo">
+    <div class="header col-lg-12">
+        <div ng-controller="myCtrl">
+            <div class="aligne ">
+                <div class="btn-0k">
+                    <img src="image/apple.jpg" alt="apple image" class="apple-logo"></img>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click1()" ng-disabled="pure">kanpur</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click2()">Delhi</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click3()">pune</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click4()">Update</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click5()">Facebook</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click6()">responsiv</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click7()">demopage</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click8()">modal</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click9()">divGame</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click10()">HCL</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click11()">Target</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click12()">Target1</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click13()">Date piker</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click14()">CRUD</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click15()">Muneer</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click16()">Array</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click17()">RWD</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click18()">Sapient Task</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click19()">Angular grid</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click20()">Filter</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click21()">Grid configer</button>
+                    <button type="button" class="btn btn-primary shape col-sm-.5" ng-click="click22()">TableSorting</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-view></div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<div ng-controller="griCtrl">
+
+<h1>YOUR UI GRID</h1>
+<table border="3" cellpadding="115" cellspacing="40">
+<tr ng-repeat= "data in myData">
+
+<td>{{data.glossary.title}}</td>
+
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.ID}}</td>
+<tr ng-repeat= "data in myData">
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.SortAs}}</td>
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.GlossTerm}}</td>
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.Acronym}}</td>
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.Abbrev}}</td>
+<td>{{data.glossary.GlossDiv.GlossList.GlossEntry.GlossDef.para}}</td>
+
+</tr>
+
+</tr>
+</table>
+Name:<input type="text" ng-model="username" />
+
+
+
+<div my-dir ng-model="username">
+this content is written under custom directive calling.
+</div>
+ 
+</div>
+
+
+
+
+
+
+
+

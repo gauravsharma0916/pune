@@ -1,0 +1,34 @@
+<div ng-controller="filterCont">
+
+
+
+<h2><strong>Here you can filter your json data<strong></h2>
+
+
+
+
+<select ng-model="selectedDew" ng-init="name" ng-options="data as data.name  for data in dew | uppercase "></select>
+<table class="table">
+<tr class="row">
+<th>name</th>
+<th>city</th>
+<th>mob</th>
+<th>company</th></tr>
+<tr class="row">
+<td>{{selectedDew.name}}</td>
+<td>{{selectedDew.city}}</td>
+<td>{{selectedDew.mob}}</td>
+<td>{{selectedDew.company}}</td>
+</tr>
+
+
+
+
+</table>
+
+<div ng-if="data.id[i]==data">
+hello ng if
+
+
+</div>
+</div>

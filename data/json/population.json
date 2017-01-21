@@ -1,0 +1,25 @@
+ [{
+ 		"city": "kanpur",
+ 		"population": "20000"
+ 	},
+
+ 	{
+ 		"city": "noida",
+ 		"population": 17500
+ 	},
+
+ 	{
+ 		"city": "Delhi",
+ 		"population": 12700
+ 	},
+
+ 	{
+ 		"city": "gurgaon",
+ 		"population": 9012
+ 	},
+
+ 	{
+ 		"city": "lucknow",
+ 		"population": 22000
+ 	}
+ ]

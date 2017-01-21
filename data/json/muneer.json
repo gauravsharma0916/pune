@@ -1,0 +1,51 @@
+[
+   {
+    "label": "Name",
+    "type": "text",
+	"ngModel":"name"
+	
+   },
+    {
+    "label": "Add",
+    "type": "text",
+	"ngModel":"add"
+	
+    },
+   {
+    "label": "Mob",
+    "type": "Number",
+	"ngModel":"mob"
+   },
+
+
+    {
+    "label": "Age",
+    "type": "number"
+    },
+   
+    {
+    "label": "gaurav",
+    "type": "radio"
+    },
+   
+    {
+    "label": "calender",
+    "type": "date"
+    },
+	
+    {
+     "label": "radio",
+     "type": "radio"
+    },
+	
+    {
+     "label": "submit",
+     "type": "button"
+    },
+   
+   {
+    "label": "Custom Class",
+     "type": "css"
+   }
+
+]

@@ -1,0 +1,103 @@
+	 [	 
+	 { "id":1,
+		"name": "gaurav",
+		"city": "kanpur",
+		"mob": 9889440531,
+		"company": "HCL TECHNOLOGIES LTD.",
+		"age": 26
+	}, {
+	    "id":2,
+		"name": "shivam",
+		"city": "kanpur",
+		"mob": 8892981776,
+		"company": "NET APP",
+		"age": 25
+	}, {
+	    "id":3,
+		"name": "amit",
+		"city": "kanpur",
+		"mob": 1234567890,
+		"company": "INFOSYS LTD.",
+		"age": 27
+	}, {
+	    "id":4,
+		"name": "rishi",
+		"city": "kanpur",
+		"mob": 1234567890,
+		"company": "ACCENTURE",
+		"age": 28
+	}, {
+	    "id":5,
+		"name": "owins",
+		"city": "Ajamghar",
+		"mob": 1234567890,
+		"company": "TIMES OF INDIA",
+		"age": 25
+	}, {
+	    "id":6,
+		"name": "rohit",
+		"city": "kanpur",
+		"mob": 1224567760,
+		"company": "RAIL VIKAS NIGAM LIMITED",
+		"age": 26
+	}, {
+	    "id":7,
+		"name": "rahul",
+		"city": "kanpur",
+		"mob": 8934567890,
+		"company": "TECNO WORLDS",
+		"age": 27
+	}, {
+	    "id":8,
+		"name": "vivek",
+		"city": "kanpur",
+		"mob": 9834567890,
+		"company": "HCL TECHNOLOGIES LTD.",
+		"age": 25
+	}, {
+	    "id":9,
+		"name": "mahendra",
+		"city": "kanpur",
+		"mob": 8744567890,
+		"company": "ADOBE INDIA PVT. LTD.",
+		"age": 28
+	}, {
+	    "id":10,
+		"name": "rahul",
+		"city": "Allahbad",
+		"mob": 9934567890,
+		"company": "MERKUR GAMING INDIA",
+		"age": 26
+	}, {
+	    "id":11,
+		"name": "pragya",
+		"city": "kanpur",
+		"mob": 9935107687,
+		"company": "SYNTEL",
+		"age": 26
+	}, {
+	    "id":12,
+		"name": "vertika",
+		"city": "kanpur",
+		"mob": 8834567890,
+		"company": "THE NEXT INTERFACE TECHNOLOGIES",
+		"age": 26
+		},
+		
+		{
+		"id":13,
+		"name": "komal",
+		"city": "pune",
+		"mob": 8798453112,
+		"company": "TCS",
+		"age": 26
+	},
+	{
+		"id":14,
+		"name": "komal",
+		"city": "delhi",
+		"mob": 8798453112,
+		"company": "TCS",
+		"age": 32
+	}
+	] 

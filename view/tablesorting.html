@@ -1,0 +1,61 @@
+<div ng-controller="tablesortingCtrl">
+
+<h2>make tablesorting here</h2>
+<h2>{{share}}</h2>
+<button type="button" ng-click="fil()">show</button>
+
+<!--Search box for table strat here -->
+<form>
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon">Search</div>
+        <input type="text" class="form-control" placeholder="Search Name" ng-model="fullSort">
+      </div>      
+    </div>
+  </form>
+<!--Search box for table end here -->
+
+
+<!--table code strat here -->
+<table class="mytable">
+
+	<!--table head strat here -->
+		<tr>
+			<th ng-click="sortData('name')">Name</th>
+			<th ng-click="sortData('mob')">Mobile</th>
+			<th ng-click="sortData('profile')">Profile</th>
+			<th ng-click="sortData('exp')">Exp.</th>
+        </tr>
+
+<!--table head end here -->
+     <tr ng-repeat="data in rave | orderBy:sortColumn:reverseSort | filter:fullSort" ng-click="showRowData($index,data);dekho(data)">
+      	<td>{{data.name}}</td>
+      	<td>{{data.mob}}</td>
+      	<td>{{data.profile}}</td>
+      	<td>{{data.exp}}</td>
+     </tr>
+</table>
+
+<!--table code end here -->
+
+
+
+<!--modal start here-->
+
+<div class="table-sorting-model" ng-hide="market">
+<span class="close" ng-click="closeModel()">x</span>
+Name:<span>{{current.name}}</span></br>
+Mobile:<span>{{current.mob}}</span></br>
+Profile:<span>{{current.profile}}</span></br>
+Exp.:<span>{{current.exp}}</span>
+
+
+</div>
+<!--modal end  here-->
+
+
+</div>
+
+
+
+

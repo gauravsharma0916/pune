@@ -1,0 +1,51 @@
+<div ng-controller="muneerCtrl">
+   <h1>Hello Muneer</h1>
+   <div ng-repeat="data in store">
+      <div class="form-group" ng-if="data.label =='Name'">
+         <label class="col-sm-2 control-label"><strong>{{data.label}}:</strong></label>
+         <input type="{{data.type}}" ng-model="{{data.ngModel}}"/>
+      </div>
+      <div class="form-group" ng-if="data.label =='Add'">
+         <label class="col-sm-2 control-label"><strong>{{data.label}}:</strong></label>
+         <input type="{{data.type}}" ng-model="{{data.ngModel}}"/>
+      </div>
+      <div class="form-group" ng-if="data.label =='Mob'">
+         <label class="col-sm-2 control-label"><strong>{{data.label}}:</strong></label>
+         <input type="{{data.type}}" ng-model="{{data.ngModel}}"/>
+      </div>
+      <span class="form-group" ng-if="data.type =='button'"/>
+      <input type="button"  class="btn btn-primary" value="Add" ng-click="save($index)">
+      </span>
+      <div class="form-group" ng-if="data.type =='css'">
+         <label class="col-sm-2 control-label"><strong>{{data.label}}:</strong></label>
+         <div>
+            <table border="3" style="margin: 0 auto " class="table" class="cell">
+               <tr>
+                  <th>S no.</th>
+                  <th>name</th>
+                  <th>Add</th>
+                  <th>mob</th>
+                  <th>Action</th>
+                  <th>Action</th>
+                  <th>Action</th>
+               </tr>
+               <tr ng-repeat="data in muneer">
+                  <td>{{$index}}</td>
+                  <td>{{data.name}}</td>
+                  <td>{{data.add}}</td>
+                  <td>{{data.mob}}</td>
+                  <td><input type="button"  class="btn btn-primary" value="update" ng-click="update(data)"></td>
+                  <td><input type="button"  class="btn btn-primary" value="delete" ng-click="delete($index)"></td>
+                  <td><input type="button"  class="btn btn-primary" value="save" ng-click="savefinal(data)"></td>
+               </tr>
+               <tr ng-show="beta">
+                  <td>{{$index}}</td>
+                  <td><input type="text" id="name" ng-model="current.name" value="{{current.name}}"></td>
+                  <td><input type="text" id="add" ng-model="current.add" value="{{current.add}}"></td>
+                  <td><input type="text" id="mob" ng-model="current.mob"  value="{{current.mob}}"></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,22 @@
+<div ng-controller="updateCtrl">
+        <div class="update-tbl "> 
+		<tr>
+		<form name="gaurav" ng-submit="add()">
+		<th>Name:</th>
+		<td><input type="text" name="name" ng-model="user.name"></td>
+		
+		<th>Mobile No.</th>
+		<td><input type="number" name="number" ng-model="user.number"><td>
+		</tr>
+		<button type="submit" class="btn btn-info" ng-click="add()">Add</button>
+		</form>
+		
+		          <table>
+		          <tr ng-repeat="data in arr">
+		             <td>{{data.name}}</td>
+		             <td>{{data.number}}</td>
+		          </tr>
+				  <tr><button type="button" ng-show="may">Delete</button></tr>
+				  </table>
+        </div>
+ </div>

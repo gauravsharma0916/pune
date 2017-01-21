@@ -1,0 +1,23 @@
+[  
+   {  
+      "name":"tcs",
+      "employee":"20000"
+   },
+   {  
+      "name":"wipro",
+      "employee":"17500"
+   },
+   {  
+      "name":"tech mahindra",
+      "employee":"12700"
+   },
+   {  
+      "name":"times of india",
+      "employee":"9012"
+   },
+   {  
+      "name":"accenture",
+      "employee":"22000"
+   }
+   
+]

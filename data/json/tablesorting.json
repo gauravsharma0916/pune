@@ -1,0 +1,79 @@
+[  
+   {  
+      "name":"gaurav sharma",
+      "mob":9889440531,
+      "profile":"ui developer",
+      "exp": 3
+   },
+   {  
+      "name":"amit singh",
+      "mob":123456777777,
+      "profile":"ui developer",
+      "exp":4.5
+   },
+   {  
+      "name":"rishi sharma",
+      "mob":55566556656,
+      "profile":"java developer",
+      "exp":4.5
+   },
+   {  
+      "name":"owins yadav",
+      "mob":8802130509,
+      "profile":"ui developer",
+      "exp":4.5
+   },
+   {  
+      "name":"shivam nigam",
+      "mob":5678907766,
+      "profile":"paython developer",
+      "exp":1 
+   },
+   {  
+      "name":"rohit singh ",
+      "mob":452535657595,
+      "profile":"networking developer",
+      "exp":3
+   },
+   {  
+      "name":"rahul parihar",
+      "mob":9044039202,
+      "profile":"banking",
+      "exp":3
+   },
+   {  
+      "name":"ram kishore",
+      "mob":35457688666,
+      "profile":"electronics engineer",
+      "exp":3
+   },
+   {  
+      "name":"pawan yadav",
+      "mob":755669984,
+      "profile":"backend developer",
+      "exp":3
+   },
+   {  
+      "name":"shubham awasthi",
+      "mob":98655555,
+      "profile":"java engineer",
+      "exp":3
+   },
+   {  
+      "name":"sonam gupta",
+      "mob":100,
+      "profile":"police",
+      "exp":"freshers"
+   },
+   {  
+      "name":"payal mishra",
+      "mob":986567674,
+      "profile":"database developer",
+      "exp":3
+   }
+   
+]
+
+
+
+

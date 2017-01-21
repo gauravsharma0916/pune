@@ -1,0 +1,57 @@
+<div ng-controller="divgameCtrl">
+<div class="divgame-sml" ng-click="openDav1()">1
+<div  class="responsive-drpdwn" ng-if="friend1">hello one</div>
+</div>
+
+
+<div class="divgame-sml" ng-click="openDav2()">2
+<div  class="responsive-drpdwn" ng-if="friend2">hello two</div>
+</div>
+
+
+
+<div class="divgame-sml" ng-click="openDav3()">3
+<div  class="responsive-drpdwn" ng-if="friend3">hello three</div>
+</div>
+
+
+
+<div class="divgame-sml" ng-click="openDav4()">4
+<div  class="responsive-drpdwn" ng-if="friend4">hello four</div>
+</div>
+
+
+
+
+
+<div class="divgame-sml" ng-click="openDav5()">5
+<div  class="responsive-drpdwn" ng-if="friend5">hello five</div>
+</div>
+
+
+<div class="divgame-sml" ng-click="openDav6()">6
+<div  class="responsive-drpdwn" ng-if="friend6">hello six</div>
+</div>
+
+
+
+<div class="div-game-population" ng-click="showPopulation()">SHOW POPULATION</div>
+
+
+
+
+<table class="davgame-table">
+<tr ng-repeat = "x in userDetail">
+<td>{{x.city}}</td>
+<td>{{x.population}}</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+</div>

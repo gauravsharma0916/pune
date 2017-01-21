@@ -1,0 +1,48 @@
+<div ng-controller="hclCont as $ctrl">
+{{$ctrl.amit}}
+      <div class="table-responsive">
+           <div class="table col-md-12">
+               <label class="size"><strong>Name:<strong></label>
+               <input type="text" name="name" ng-model="name"></br>
+               <label class="size"><strong>City:<strong></label>
+               <input type="text" name="city" ng-model="city"></br>
+               <label class="size"><strong>Mob:<strong></label>
+               <input type="text" name="mob" ng-model="mob"></br></br>
+               <button type="button" class="btn btn-primary" ng-click="makeTable()">Send To Table</button>
+           </div>
+      </div>
+	  
+	<div>
+	 <table class="hcl-table" border="2">
+	 <tr>
+	    <th>Name</th>
+	    <th>City</th>
+	    <th>Mob.</th>
+	    <th>Action</th>
+	    <th>Action</th>
+	    <th>Action</th>
+	 </tr>
+<tr ng-repeat="data in myArray track by $index">
+	<td>{{data.name}}</td>
+	<td>{{data.city}}</td>
+	<td>{{data.mob}}</td>
+	<td><button class="btn btn-primary" ng-click="update(data)">Update</button></td>
+	<td><button class="btn btn-primary" ng-click="save(current)">Save</button></td>
+	<td><button class="btn btn-primary" ng-click="delRow($index)">Delete</button></td>
+	</tr>
+	<tr ng-show="micro">
+	<td><input type="text"  ng-model="current.name" value="{{current.name}}"></td>
+	<td><input type="text"  ng-model="current.city" value="{{current.city}}"></td>
+	<td><input type="text"  ng-model="current.mob"  value="{{current.mob}}"></td>
+	</tr>
+</br></br>
+	
+	
+	</table>
+
+	</div>
+	  
+	  
+	  
+	  
+</div>

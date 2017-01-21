@@ -1,0 +1,31 @@
+<div ng-controller="crudCtrl">
+<strong>Name:</strong><input type="text"  ng-model="name"></br>
+<strong>Add:</strong><input type="text"  ng-model="add"></br>
+<strong>Mob:</strong><input type="number"  ng-model="mob"></br></br>
+<button type="button" class="btn btn-primary"ng-click="makeTable()">ADD</button>
+
+
+
+<table border="1" style="margin: 0 auto ">
+<tr>
+<th>NAME</th>
+<th>Add</th>
+<th>Mob</th>
+<th>Action</th>
+<th>Action</th>
+<th>Action</th>
+</tr>
+<tr ng-repeat="info in crud">
+<td>{{info.name}}</td>
+<td>{{info.add}}</td>
+<td>{{info.mob}}</td>
+<td><button class="btn btn-primary" ng-click="update(data)">Update</button></td>
+<td><button class="btn btn-primary" ng-click="save(current)">Save</button></td>
+<td><button class="btn btn-primary" ng-click="delRow(data)">Delete</button></td>
+</tr>
+</table>
+
+
+
+
+</div>
