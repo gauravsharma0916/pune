@@ -1,4 +1,4 @@
-var app=angular.module("myApp", ['ngRoute','720kb.datepicker','ui.grid','ngAnimate','ngTouch']);
+var app=angular.module("myApp", ['ngRoute','720kb.datepicker','ui.grid','ngAnimate','ngTouch','ui.bootstrap']);
 
 app.config (function($routeProvider,$locationProvider){
 

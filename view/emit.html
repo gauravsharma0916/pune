@@ -7,13 +7,13 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Name:</label>
       <div class="col-sm-10">
-        <input type="email" class="form-control" id="name" placeholder="Enter name" ng-model="user.name">
+        <input type="text" class="form-control" id="name" placeholder="Enter name" ng-model="user.value1">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Mobile:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="mob" ng-model="user.mobile" placeholder="Enter mobile no.">
+        <input type="number" class="form-control" id="mob" ng-model="user.value2" placeholder="Enter mobile no.">
       </div>
     </div>
     <div class="form-group">        
@@ -25,11 +25,25 @@
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" ng-click="send(user)" class="btn btn-default">Submit</button>
+        <button type="submit" ng-click="send(user);open()" class="btn btn-primary" data-toggle="modal" data-target="#myModal">EMIT DATA</button>
       </div>
     </div>
   </form>
 </div>
+
+<div ng-repeat="data in myArray track by $index">
+  <div>{{data.value1}}</div>
+  <div>{{data.value2}}</div>
+  </div>
+
+
+
+
+
+
+
+
+
 
 
 
