@@ -1,10 +1,14 @@
 angular.module("myApp").service('emt', function($http) {
-this.value1 = "";
-this.value2 = "";
-
-
-
-
+var myObj = {
+        value1: "",
+        value2: ""
+      }
+      
+      return {
+        obj: myObj
+        
+      }
+  
     });
 
 

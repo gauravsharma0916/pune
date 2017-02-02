@@ -1,12 +1,17 @@
-<div modal="showModal" close="cancel()">
-  <div class="modal-header">
+
+
+
+ <div class="modal-header" ng-hide="demo">
       <h4>Modal Dialog</h4>
   </div>
   <div class="modal-body">
       <p>Example paragraph with some text.</p>
+      
+      <p>Your name is :{{user1.value1}}</p>
+      <p>Your number is :{{user1.value2}}</p>
+      
   </div>
   <div class="modal-footer">
     <button class="btn btn-success" ng-click="ok()">Okay</button>
     <button class="btn" ng-click="cancel()">Cancel</button>
   </div>
-</div>
